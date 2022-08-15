@@ -25,7 +25,7 @@ yellow,green="\033[31m","\033[92m"
 
 
 print(f"{yellow} ")
-banner = (f"""  Filtering(taigr)""")
+banner = (f"""  Filtering taigr """)
 for bnr in banner:
         sys.stdout.write(bnr)
         sys.stdout.flush()
