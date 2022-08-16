@@ -11,20 +11,20 @@ import requests
 
 
 
-red='\033[93m'  
+red='\033[31m'  
 green='\033[32m' 
 blue='\033[36m' 
 pink='\033[35m'  
 rang='\033[34m' 
-yellow='/033[31m'  
+yellow='/033[93m'  
 
-#dat
+
 dat = (datetime.datetime.today())
-yellow,green="\033[31m","\033[92m"
+yellow,green="\033[31m","\033[32m"
 
 
 
-print(f"{yellow} ")
+print(f"{rang} ")
 banner = (f"""  Filtering taigr """)
 for bnr in banner:
         sys.stdout.write(bnr)
@@ -38,8 +38,8 @@ print()
 
 
 
-print(f"{red} ")
-banner = (f"""
+print(f"{green} ")
+banner = (f"""\033[32m
 
 taigr
                         .X*#M@$!!  !X!M$$$$$$WWx:.
@@ -48,7 +48,7 @@ taigr
                     :!~::!H!<   ~.U$X!?R$$$$$$$$MM!
                     ~!~!!!!~~ .:XW$$$U!!?$$$$$$RMM!
                     !:~~~ .:!M"T#$$$$WX??#MRMMDM!
-                {blue}      ~?WuxiW*   "#$$$$8!!!!??!!!
+                {blue}    \033[32m  ~?WuxiW*   "#$$$$8!!!!??!!!
                     :X- M$$$$       "T#$T~!8$WUXU~
                     :%  ~#$$$m:        ~!~ ?$$$$$$
                 :!.-   ~T$$$$8xx.  .xWW- ~""##*"
@@ -71,8 +71,8 @@ print("")
 print("")
 print("")
 print("")
-print(f"{rang} ")
-banner = (f"""
+print(f"\033[36m ")
+banner = (f"""\033[31m
 
         ──▐─▌── ▐─▌──
          ─▐▌─▐▌▐▌─▐▌─
@@ -90,10 +90,10 @@ for bnr in banner:
 print("")
 print("")
 print("")
-print("")
-print ("Filter")
+print("\033[36m")
+print ("Filter\033[36m")
 time.sleep(0.1)
-print ("Rubika")
+print ("Rubika\033[36m")
 time.sleep(0.5)
 print ("bbr")
 time.sleep(0.1)
