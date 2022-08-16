@@ -20,12 +20,12 @@ yellow='/033[93m'
 
 
 dat = (datetime.datetime.today())
-yellow,green="\033[31m","\033[32m"
+yellow,green="\033[31m","\033[31m"
 
 
 
 print(f"{rang} ")
-banner = (f"""  Filtering taigr """)
+banner = (f""" \033[31m Filtering taigr """)
 for bnr in banner:
         sys.stdout.write(bnr)
         sys.stdout.flush()
@@ -87,19 +87,19 @@ for bnr in banner:
         sys.stdout.flush()
         time.sleep(0.009)
         
-print("")
-print("")
-print("")
 print("\033[36m")
-print ("Filter\033[36m")
+print("💛💛💛")
+print("💛💛💛💛")
+print("💛💛💛💛💛")
+print ("💛💛💛💛💛💛")
 time.sleep(0.1)
-print ("Rubika\033[36m")
+print ("💛💛💛💛💛💛💛")
 time.sleep(0.5)
-print ("bbr")
+print ("💛💛💛💛💛💛💛💛")
 time.sleep(0.1)
-print ("taigr")
+print ("💛💛💛💛💛💛💛💛💛")
 time.sleep(0.5)
-print("cod")
+print("💛💛💛💛💛💛💛💛💛💛")
 time.sleep(0.1)
 
 print("")
